@@ -1,0 +1,1 @@
+- grep -R <something to look for> <folder to look in> -> This will look for this pattern or word in all the files inside this folder
