@@ -1,0 +1,4 @@
+tee -> takes as an input a command, It executes it and it directs output
+both to stdout and one or multiple files
+
+  
