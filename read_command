@@ -1,0 +1,5 @@
+-read varname -> it will wait for a user input, and it will 
+store it in the varname variable
+
+-read -p 'Username:' uservar -> will specify a prompt
+-read -sp 'Password: ' passvar -> will go silent

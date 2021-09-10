@@ -1,0 +1,8 @@
+Bash looks at folder declared in the PATH variable,
+so if you haven't include our file in any of these folder
+we have to specifically tell the bash where to find this script.
+We can use an absolute path or a relative path.
+So if we want to run a script at the folder we are in we simply type
+/bin/bash: :wq: command not found
+~                                                                               
+~                                        

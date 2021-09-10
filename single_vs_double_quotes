@@ -1,0 +1,3 @@
+-Single quotes will treat every character literally
+-Double quotes will allow yo to do subsitution (that is include variables 
+within the setting of the value)
