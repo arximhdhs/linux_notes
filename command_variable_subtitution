@@ -1,0 +1,5 @@
+-$(command) -> Means execute the command inside the paranthesis 
+and replace $(command) with the output. 
+It is the same with `command`, but the latter is depricated
+
+-${variable} ) -> Does the same but with a variable instead of a commmand
