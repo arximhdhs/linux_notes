@@ -1,0 +1,17 @@
+A shell is define by the following attributes:
+	- shell level -> Is an integer starting from 1, starting
+		a new shell increments the level, creating child shell.
+		Every new shell will have a $SHLVL of 1 and then every
+		bash will have an icremented $SHLVL
+	- directory location -> The directory location for a shell initiates,
+		from the current working directory, The location can change,
+		but exiting the shell reverts the location back 
+		to previous location
+	- set of defined variables -> Variables are only defined within 
+		a single shell, Variables are not propagated to child
+		shells o 
+	- set of processes -> Processes run within a single shell,
+		Exiting the shell abandons running processes
+	- options for the shell -> Each shell is configurable with options
+		Options propagate to child shells, but not back parent shells
+		set and shopt are used to change these options
