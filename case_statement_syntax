@@ -1,0 +1,23 @@
+          case  $variable-name  in
+                pattern1)       
+     		    command1
+                    ...
+                    ....
+                    commandN
+                    ;;
+                pattern2)
+     		    command1
+                    ...
+                    ....
+                    commandN
+                    ;;            
+                patternN)       
+     		    command1
+                    ...
+                    ....
+                    commandN
+                    ;;
+                *)              
+          esac
+
+This is the syntax of the case loop. Wildcards can be used  
